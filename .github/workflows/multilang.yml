@@ -1,0 +1,30 @@
+name: Commits Multilinguagem
+
+on:
+  schedule:
+    - cron: "0 6 * * *"    # Roda às 06:00 UTC (03:00 no Brasil)
+    - cron: "0 14 * * *"   # Roda às 14:00 UTC (11:00 no Brasil)
+    - cron: "0 22 * * *"   # Roda às 22:00 UTC (19:00 no Brasil)
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Atualizar arquivos de várias linguagens
+        run: |
+          echo "# $(date)" >> simulated-commits/python_script.py
+          echo "// $(date)" >> simulated-commits/javascript_file.js
+          echo "<!-- $(date) -->" >> simulated-commits/html_page.html
+          echo "/* $(date) */" >> simulated-commits/style.css
+          echo "// $(date)" >> simulated-commits/app.jsx
+          echo "# $(date)" >> simulated-commits/api.fastapi.py
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add simulated-commits/*
+          git commit -m "🔄 Commit multilinguagem em $(date)"
+          git push
