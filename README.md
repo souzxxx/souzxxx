@@ -35,8 +35,8 @@ Sou um desenvolvedor com foco em backend e frontend, apaixonado por transformar 
 
 <div align="center">
 
-  ![Leonardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=seu-usuario&show_icons=true&theme=dracula)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seu-usuario&layout=compact&theme=dracula)
+  ![Leonardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=souzxxx&show_icons=true&theme=dracula)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=souzxxx&layout=compact&theme=dracula)
 
 </div>
 
@@ -75,4 +75,3 @@ Sou um desenvolvedor com foco em backend e frontend, apaixonado por transformar 
 
 ---
 
-<sub>Este README foi gerado com ❤ por [@seu-usuario](https://github.com/seu-usuario)</sub>
