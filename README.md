@@ -1,14 +1,14 @@
 <h1 align="center">Olá! 👋 Eu sou Leonardo Souza</h1>
 
 <p align="center">
-  <strong>Desenvolvedor Full Stack | Apaixonado por Python, Web e Jogos</strong>
+  <strong>Desenvolvedor Full Stack |</strong>
 </p>
 
 ---
 
 ### 🧠 Sobre Mim
 
-Sou um desenvolvedor com foco em backend e frontend, apaixonado por transformar ideias em soluções funcionais. Já trabalhei com diversos projetos acadêmicos e pessoais usando tecnologias como **Python, React, Next.js e Django**, mas também me aventuro com jogos em **Pygame** e APIs modernas com **FastAPI**. Busco constantemente aprender e evoluir — e esse perfil é uma janela para isso.
+Sou um desenvolvedor com foco em backend e frontend. Já trabalhei com diversos projetos acadêmicos e pessoais usando tecnologias como **Python, React, Next.js e Django**, mas também com jogos em **Pygame** e APIs modernas com **FastAPI**.
 
 ---
 
