@@ -1,7 +1,7 @@
-<h1 align="center">Olá! 👋 Eu sou Leonardo Souza</h1>
+<h1 align="center">Leonardo Souza</h1>
 
 <p align="center">
-  <strong>Desenvolvedor Full Stack |</strong>
+  <strong>Desenvolvedor Full Stack | Estudante do Insper</strong>
 </p>
 
 ---
