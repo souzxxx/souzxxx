@@ -36,10 +36,8 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
 ### 📊 Estatísticas GitHub
 
 <div align="center">
-  
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=souzxxx&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=souzxxx&layout=compact&langs_count=7&theme=dracula"/>
-  
 </div>
 
 ---
@@ -47,9 +45,7 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
 ### 🏆 Troféus
 
 <div align="center">
-  
   <img src="https://github-profile-trophy.vercel.app/?username=souzxxx&theme=onedark&row=1&column=7&margin-w=15&margin-h=15&no-frame=false" alt="GitHub Trophies"/>
-  
 </div>
 
 ---
@@ -57,9 +53,7 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
 ### 📈 Contribuições
 
 <div align="center">
-  
   <img src="https://github-readme-streak-stats.vercel.app/?user=souzxxx&theme=dracula" alt="GitHub Streak"/>
-  
 </div>
 
 ---
