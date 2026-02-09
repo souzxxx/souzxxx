@@ -31,24 +31,6 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
   
 </div>
 
----
-
-### 📊 Estatísticas GitHub
-<div align="center">
-  ![Leonardo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=souzxxx&show_icons=true&theme=dracula)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=souzxxx&layout=compact&theme=dracula)
-</div>
-
----
-
-### 🏆 Troféus
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=souzxxx&theme=onedark&row=1&column=7&margin-w=15&margin-h=15&no-frame=false" alt="GitHub Trophies"/>
-</div>
-
----
-
 ### 📈 Contribuições
 
 <div align="center">
