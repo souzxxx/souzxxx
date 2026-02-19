@@ -2,29 +2,71 @@ name: Commits Multilinguagem
 
 on:
   schedule:
-    - cron: "0 6 * * *"    # Roda às 06:00 UTC (03:00 no Brasil)
-    - cron: "0 14 * * *"   # Roda às 14:00 UTC (11:00 no Brasil)
-    - cron: "0 22 * * *"   # Roda às 22:00 UTC (19:00 no Brasil)
+    - cron: "0 */2 * * *"  # Roda a cada 2 horas para ter janelas de oportunidade
   workflow_dispatch:
 
 jobs:
   commit:
     runs-on: ubuntu-latest
     steps:
+      - name: Decidir se faz commit nesta execução
+        id: decide
+        run: |
+          # Gera número aleatório 0-99
+          RAND=$((RANDOM % 100))
+          # ~25% de chance por execução (12 execuções/dia × 25% ≈ 3-5 commits em média)
+          # Ajuste esse valor para mais ou menos commits
+          if [ $RAND -lt 25 ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout
+        if: steps.decide.outputs.run == 'true'
         uses: actions/checkout@v3
 
-      - name: Atualizar arquivos de várias linguagens
+      - name: Atualizar arquivos
+        if: steps.decide.outputs.run == 'true'
         run: |
-          echo "# $(date)" >> simulated-commits/python_script.py
-          echo "// $(date)" >> simulated-commits/javascript_file.js
-          echo "<!-- $(date) -->" >> simulated-commits/html_page.html
-          echo "/* $(date) */" >> simulated-commits/style.css
-          echo "// $(date)" >> simulated-commits/app.jsx
-          echo "# $(date)" >> simulated-commits/api.fastapi.py
+          # Escolhe aleatoriamente quais arquivos alterar (nem sempre todos)
+          FILES=("simulated-commits/python_script.py"
+                 "simulated-commits/javascript_file.js"
+                 "simulated-commits/html_page.html"
+                 "simulated-commits/style.css"
+                 "simulated-commits/app.jsx"
+                 "simulated-commits/api.fastapi.py")
+
+          COMMENTS=("# " "// " "<!-- " "/* " "// " "# ")
+          SUFFIXES=("" "" " -->" " */" "" "")
+
+          # Escolhe de 2 a 6 arquivos aleatórios para alterar
+          NUM_FILES=$(( (RANDOM % 5) + 2 ))
+          
+          # Embaralha e pega os primeiros N
+          INDICES=($(shuf -i 0-5 -n $NUM_FILES))
+
+          for i in "${INDICES[@]}"; do
+            echo "${COMMENTS[$i]}Update $(date +%s)${SUFFIXES[$i]}" >> "${FILES[$i]}"
+          done
+
+          # Mensagens de commit variadas para parecer mais natural
+          MESSAGES=(
+            "🔧 refactor: clean up code"
+            "✨ feat: minor improvements"
+            "📝 docs: update comments"
+            "🎨 style: formatting adjustments"
+            "⚡ perf: optimize logic"
+            "🐛 fix: resolve edge case"
+            "♻️ chore: routine maintenance"
+            "🧹 cleanup: remove unused code"
+            "📦 update: dependency changes"
+            "🔨 build: config tweaks"
+          )
+          MSG=${MESSAGES[$((RANDOM % ${#MESSAGES[@]}))]}
 
           git config user.name "Leonardo Souza"
           git config user.email "leonardosouzasilva9@gmail.com"
           git add simulated-commits/*
-          git commit -m "🔄 Commit multilinguagem em $(date)"
-          git push
+          git commit -m "$MSG" || echo "Nada para commitar"
+          git push || echo "Nada para push"
