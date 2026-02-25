@@ -55,8 +55,3 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
 
 ---
 
-<div align="center">
-  
-  ![Visitor Count](https://profile-counter.glitch.me/souzxxx/count.svg)
-  
-</div>
