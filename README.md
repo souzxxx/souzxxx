@@ -31,14 +31,6 @@ Sou um desenvolvedor full stack com experiência em backend e frontend. Trabalho
   
 </div>
 
-### 📈 Contribuições
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=souzxxx&theme=dracula" alt="GitHub Streak"/>
-</div>
-
----
-
 ### 📫 Contato
 
 <div align="center">
