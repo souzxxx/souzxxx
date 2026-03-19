@@ -8,6 +8,7 @@
 ### Sobre Mim
 
 Sou um desenvolvedor full stack com base sólida tanto em backend quanto em frontend. Além da experiência prática com o desenvolvimento de APIs REST, modelagem de bancos de dados relacionais e conteinerização de aplicações, desenvolvimento de jogos, conhecimentos em fundamentos de Inteligência Artificial e Machine Learning, construo projetos utilizando tecnologias modernas como **Java, Spring Boot, Python, React e Next.js**.  
+
 ---
 
 ### Tecnologias e Ferramentas
@@ -31,9 +32,11 @@ Sou um desenvolvedor full stack com base sólida tanto em backend quanto em fron
   
   ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
   ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Pygame](https://img.shields.io/badge/Pygame-1E90FF?style=for-the-badge&logo=python&logoColor=white)
   
+  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+  ![Pygame](https://img.shields.io/badge/Pygame-1E90FF?style=for-the-badge&logo=python&logoColor=white)
   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
   ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
   
