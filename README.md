@@ -1,67 +1,59 @@
 <h1 align="center">Leonardo Souza</h1>
+
 <p align="center">
-  <strong>Desenvolvedor Full Stack | Estudante no Insper</strong>
+  <strong>Backend, Web & IA</strong> · Ciência da Computação no Insper (5º semestre) · São Paulo
+</p>
+
+<p align="center">
+  <a href="https://www.leosouza.dev.br"><img src="https://img.shields.io/badge/Portfólio-leosouza.dev.br-111111?style=for-the-badge" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/leonardo-souzx"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:leonardosouzasilva9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 ---
 
-### Sobre Mim
+Construo backend, web e IA que rodam em produção: assistente LLM sobre os dados do próprio usuário, busca vetorial com pgvector, outbox com retry e idempotência, e front-end Next.js em sistema com usuário real. Prefiro medir a supor.
 
-Sou um desenvolvedor full stack com base sólida tanto em backend quanto em frontend. Além da experiência prática com o desenvolvimento de APIs REST, modelagem de bancos de dados relacionais e conteinerização de aplicações, desenvolvimento de jogos, conhecimentos em fundamentos de Inteligência Artificial e Machine Learning, construo projetos utilizando tecnologias modernas como **Java, Spring Boot, Python, React e Next.js**.  
+Os cases completos, com decisões e capturas, estão no **[portfólio](https://www.leosouza.dev.br)**.
 
----
+### Projetos
 
-### Tecnologias e Ferramentas
+| Projeto | O que é |
+| --- | --- |
+| **Portal TECNA** | Super app interno de uma construtora em Next.js 16 + Drizzle; meus os módulos de Qualidade, Planejamento, Segurança e Gerenciamento de Projetos *(privado)* |
+| **Atlas** | Mercado de previsão com livro de ordens e invariante contábil testado sob concorrência *(privado)* |
+| **E-commerce transacional** | Spring Boot com outbox, idempotência de webhook e rate limit em Redis com circuit breaker *(sob NDA)* |
+| **ClinVision** | IA que corrige treino de odontologia por foto: YOLO pose treinado em dados sintéticos do Blender *(privado)* |
+| **Precificação QuintoAndar** | API FastAPI na AWS com MAPE de 9,32% em vendas reais de um ano nunca visto *(privado)* |
+| [**Project Wraeclast**](https://github.com/souzxxx/project-wraeclast) | Assistente com RAG: coleta diária no GitHub Actions e busca vetorial em Postgres com pgvector |
+| [**Plataforma de microsserviços**](https://github.com/pna26/platform) | Gateway com cache de token no Redis, Kafka com outbox e CI/CD rumo ao AWS EKS |
+| [**A Firma**](https://souzxxx.itch.io/a-firma) · [**Quintessence 3D**](https://github.com/souzxxx/Jogo3D) | Jogos em Unity: idle de assalto 2D e roguelite de ação 3D |
 
-<div align="center">
-  
-  ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  
-  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-  
-  ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![Pygame](https://img.shields.io/badge/Pygame-1E90FF?style=for-the-badge&logo=python&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-  ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  
-</div>
+### Stack
 
----
-
-### Contato
-
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-souzx)
-  [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonardosouzasilva9@gmail.com)
-  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/souzxxx)
-  
-</div>
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+</p>
 
 ---
 
-### Atividade Recente
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake.svg">
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake.svg">
+  <img alt="Animação da cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/souzxxx/souzxxx/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
